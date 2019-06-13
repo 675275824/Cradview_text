@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:alpha="1.0"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="265dp" />
+    <EditText
+        android:id="@+id/friend_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="好友账号"
+        android:layout_centerVertical="true"
+        android:background="@drawable/text_view_border"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/email_friend"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="好友邮箱"
+        android:layout_centerVertical="true"
+        android:background="@drawable/text_view_border"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_friend"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加"
+        android:background="@drawable/button_border"
+        android:layout_below="@id/password_input"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

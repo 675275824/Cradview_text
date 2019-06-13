@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="首页"
+        android:id="@+id/menu_bottomnav_home"
+        android:icon="@drawable/home_unchenked" />
+
+    <item android:title="搜索"
+        android:id="@+id/menu_bottomnav_trend"
+        android:icon="@drawable/find__unchecked"/>
+
+</menu>

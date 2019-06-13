@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_nav_group1"
+        android:checkableBehavior="single">
+        <item android:title="首页"
+            android:id="@+id/menu_nav_home"
+            />
+        <item android:title="历史纪录"
+            android:id="@+id/menu_history"/>
+        <item android:title="我的账号"
+            android:id="@+id/menu_number"/>
+        <item android:title="我的收藏"
+            android:id="@+id/menu_collection"/>
+        <item android:title="反馈和提议"
+            android:id="@+id/feedback"/>
+        <item android:title="退出登录"
+            android:id="@+id/exit"/>
+    </group>
+    <group android:id="@+id/menu_nav_group2">
+
+
+    </group>
+
+</menu>
